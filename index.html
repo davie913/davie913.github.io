@@ -14,7 +14,7 @@
 </head>
 <body>
 
-
+<a href="#" class="back-to-top">Back to Top</a>
 
 
 	<div class="container-fluid">
@@ -22,8 +22,8 @@
 			<div class="navbar navbar-inverse col-xs-12 col-md-12">
 				<ul class="nav nav-pills nav-justified col-xs-12 col-md-12">
 					<li  role="presentation"><a href="#">About</a></li>
-					<li  role="presentation"><a href="#my-slider">Portfolio</a></li>
-					<li  role="presentation"><a href="#">Contact</a></li>
+					<li  role="presentation"><a href="#portfolio">Portfolio</a></li>
+					<li  role="presentation"><a href="#Contact">Contact</a></li>
 				</ul>
 			</div>
 		</div>	
@@ -55,7 +55,7 @@
 <div class="wrap" style="margin-top:200px">
 	<div class="container-fluid col-xs-12">
 		<div class="row" >
-			<div class="breakerbr">
+			<div class="breakerbr" id="portfolio">
 				<h1 style="color: white;">Portfolio</h1>
 			</div>		
 			<div style="margin-bottom: 0;" id="my-slider" class="carousel slide" data-ride="carousel">
@@ -117,7 +117,7 @@
 <div class="container-fluid bbar" style="margin-top: 900px;">
 	<div class="row">
 		<div>
-			<h1 style="color: white;">Contact me</h1>
+			<h1 style="color: white;" id="Contact">Contact me</h1>
 		</div>
 	</div>
 </div>
@@ -177,9 +177,12 @@
 			</footer>
 	</div>
 </div>
-
+<script type="text/javascript">
+	$('body').prepend('<a href="#" class="back-to-top">Back to Top</a>');
+</script>
 <script src="js/jquery-3.1.1.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/scroll.js"></script>
 </body>
 
 
